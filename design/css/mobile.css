@@ -1,0 +1,37 @@
+@media (max-width: 768px) {
+
+    .background_pattern img {
+        background-image: url(../../assets/images/background-pattern-mobile.svg);
+    }
+
+    .faq_container {
+        width: 330px;
+        height: 530px;
+        padding: 35px;
+    }
+
+    .faq_image {
+        width: 25px;
+        gap: 20px;
+    }
+
+    .faq_title {
+        font-size: 32px;
+    }
+
+    .p_1,
+    .p_2,
+    .p_3,
+    .p_4 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .text_1,
+    .text_2,
+    .text_3,
+    .text_4 {
+        font-size: 13.5px;
+    }
+
+}
