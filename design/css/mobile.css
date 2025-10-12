@@ -1,12 +1,21 @@
 @media (max-width: 768px) {
 
-    .background_pattern img {
-        background-image: url(../../assets/images/background-pattern-mobile.svg);
+    .background_pattern .desktop_bg {
+        display: none;
+    }
+
+    .background_pattern .mobile_bg {
+        display: flex;
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 0;
     }
 
     .faq_container {
         width: 330px;
-        height: 530px;
         padding: 35px;
     }
 
@@ -34,4 +43,7 @@
         font-size: 13.5px;
     }
 
+    .attribution {
+        display: none;
+    }
 }
